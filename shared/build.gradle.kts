@@ -25,14 +25,14 @@ kotlin {
     
     jvm()
     
-    js {
-        browser()
-    }
-    
-    @OptIn(ExperimentalWasmDsl::class)
-    wasmJs {
-        browser()
-    }
+//    js {
+//        browser()
+//    }
+//
+//    @OptIn(ExperimentalWasmDsl::class)
+//    wasmJs {
+//        browser()
+//    }
     
     androidLibrary {
        namespace = "com.example.comlibrary.shared"
@@ -67,9 +67,9 @@ kotlin {
         commonTest.dependencies {
             implementation(libs.kotlin.test)
         }
-        jsMain.dependencies {
-            implementation(libs.wrappers.browser)
-        }
+//        jsMain.dependencies {
+//            implementation(libs.wrappers.browser)
+//        }
     }
 }
 
