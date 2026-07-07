@@ -9,8 +9,8 @@ plugins {
     `maven-publish`
 
 }
-group = "io.github.deepak"
-version = "1.0.0"
+group = "io.github.Deepak-Choudharyy"
+version = "1.0.1"
 
 kotlin {
     listOf(
