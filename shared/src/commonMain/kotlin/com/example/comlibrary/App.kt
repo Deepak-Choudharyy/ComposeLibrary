@@ -15,9 +15,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import org.jetbrains.compose.resources.painterResource
-
-import comlibrary.shared.generated.resources.Res
-import comlibrary.shared.generated.resources.compose_multiplatform
+import io.github.deepak_choudharyy.shared.generated.resources.Res
+import io.github.deepak_choudharyy.shared.generated.resources.compose_multiplatform
 
 @Composable
 @Preview
